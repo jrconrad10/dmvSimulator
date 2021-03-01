@@ -3,10 +3,10 @@ public class dmvSimulator {
 	public static void main(String[] args)
 	{
 		System.out.println("Welcome to the DMV!");
-		int number = (int) (Math.random() * 100);
+		int number = (int) (Math.random() * 100) + 100;
 		System.out.println("Your number is " + number + ", wait until you are called.");
 		
-		for(int i = number + 1; i <= 100; i++)
+		for(int i = number + 1; i <= 200; i++)
 		{
 			System.out.println(i);
 		}
@@ -16,7 +16,7 @@ public class dmvSimulator {
 			System.out.println(i);
 		}
 		
-		System.out.println("You don't have the required");
+		System.out.println("You don't have the required paperwork");
 		System.out.println("Exitting the program...");
 	}
 }
