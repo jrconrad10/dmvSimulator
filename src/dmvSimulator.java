@@ -16,7 +16,7 @@ public class dmvSimulator {
 			System.out.println(i);
 		}
 		
-		System.out.println("You don't have the required paperwork. Have an awful day. You wasted my time and everybody elses.");
+		System.out.println("You don't have the required paperwork. Have an awful day. You wasted my time and everybody elses. MUAHAHAHAHAHAHAHAHAHAHA");
 		System.out.println("Exitting the program...");
 	}
 }
